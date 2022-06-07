@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    margin-left: 10%;
+    margin-right: 10%;
+    /* margin-top: 3%;
+    margin-bottom: 1%; */
+    font-family: 'Baskervville', serif;
+    background-color: black;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #AB8A5C;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    background-color: #AB8A5C;
+    
+  }
+
+.hr2 {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    
+}
+
+#page-container {
+    position: relative;
+    height: 100vh;
+    background-color: #000;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    
+}
+
+
+
+#header ul li {
+    display: inline-block;
+
+    
+}
+
+
+#header .header__title a{
+    font-size: 2rem;
+
+}
+
+#header .header__nav1 a{
+    font-size: 1rem;
+    padding: 10px 15px;
+
+
+}
+
+#header .header__nav2 a{
+    font-size: 1rem;
+    padding: 10px 15px;
+
+}
+
+
+#header .header__nav1 a:hover {
+    color: white;
+}
+
+#header .header__nav2 a:hover {
+    color: white;
+}
+
+
+
+
+
+#main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1.2%;
+    
+}
+
+#main .grid-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+#main .grid-main img {
+    width: 100%;
+}
+
+
+
+/* MAIN CONTACT */ 
+
+#main__contact h2{
+    color: white;
+    padding-top: 2%;
+    font-size: 1.7rem;
+    font-family: 'Baskerville Old Face';
+}
+
+button{
+    float: right;
+    padding: 1px 7px;
+    font-family: 'Baskerville Old Face';
+    border: 1px solid #AB8A5C;
+    background: none;
+    color: #AB8A5C;
+    cursor: pointer;
+    transition: all;
+}
+
+button:hover {
+    background: whitesmoke;
+    color: #000;
+}
+
+
+/*MAIN POISON*/
+
+#main .main__poison {
+    height: 550px;
+    width: 1228px;
+
+   
+}
+
+#main .main__poison img {
+    height: 100%;
+    width: 100%;
+
+   
+}
+
+
+
+/*MAIN ANTIDOTE*/
+
+#main .main__antidote {
+    height: 550px;
+    width: 1228px;
+
+   
+}
+
+#main .main__antidote img {
+    height: 100%;
+    width: 100%;
+
+}
+
+/*MAIN PARANOID*/
+
+#main .main__paranoid {
+    height: 550px;
+    width: 1228px;
+
+   
+}
+
+#main .main__paranoid img {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+
+/* MAIN ABOUT */ 
+
+#main .main__about {
+    height: 550px;
+    width: 1228px;
+}
+
+#main .main__about p {
+    color: whitesmoke;
+}
+
+#main .main__infoabout p{
+    color: white;
+    
+}
+
+/* MAIN CONTACT */ 
+
+#main .main__contact {
+    height: 550px;
+    width: 1228px;
+}
+
+#main h2 {
+    color: white;
+    
+}
+
+#main .main__infocontact p{
+    color: white;
+    
+}
+
+/* MAIN ACCOUNT */ 
+
+#main .main__account {
+    height: 550px;
+    width: 1228px;
+    
+}
+
+#main h2 {
+    color: white;
+    
+}
+
+#main .main__infoaccount p{
+    color: white;
+    
+}
+
+/* MAIN SUSCRIBE */ 
+
+#main .main__suscribe {
+    height: 550px;
+    width: 1228px;
+}
+
+#main h2 {
+    color: white;
+    
+}
+
+#main .main__infosuscribe p{
+    color: white;
+    
+}
+
+
+
+
+
+
+#footer {
+    display: flex;
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 1%;
+    align-items: center;
+
+
+}
+
+
+#footer ul li {
+    text-align: center;
+    list-style: none;
+
+
+}
+
+#footer .footer__div {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#footer .hr2 {
+    display: flex;
+    position: flex;
+    margin-bottom: 4rem;
+    height: 1px;
+    border: 0;
+    background-color: #AB8A5C;
+    
+}
+
+#footer .footer__suscribe a{
+    font-size: 0.9rem;
+
+}
+
+
+#footer .footer__fnav1 a{
+    font-size: 0.9rem;
+
+}
+
+#footer .footer__info a{
+    font-size: 0.9rem;
+
+}
+
+#footer .footer__fnav1 a:hover {
+    color: white;
+}
+
+#footer .footer__s a:hover {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+/* #footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1%;
+    
+}
+
+
+
+#footer .footer__suscribe a {
+    font-size: 1rem;
+}
+
+
+#footer .footer__nav1 a {
+    font-size: 1rem;
+    display: inline-block;
+    padding: 1.4px;
+
+    
+}
+
+#footer .footer__paranoia a {
+    font-size: 1rem;
+}
+
+
+#footer .footer__nav1 a:hover {
+    color: white;
+}
+
+#footer .footer__suscribe a:hover {
+    color: white;
+} */
