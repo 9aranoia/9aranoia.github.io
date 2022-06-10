@@ -98,6 +98,7 @@ hr {
     align-items: center;
     padding-top: 1%;
     padding-bottom: 1.2%;
+
     
 }
 
@@ -311,30 +312,41 @@ button:hover {
     width: 1228px;
     justify-content: center;
     align-items: center;
-    max-width: 700px;
+    max-width: 500px;
     width: 100%;
-    background:none;
-    padding: 16px 0px;
+    background: none;
+    padding: 0px;
     color: #AB8A5C;
+ 
+}
 
-    
+
+#main .container2 {
+    height: 550px;
+    width: 1228px;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    background: none;
+    padding: 0px;
+    color: #AB8A5C;
+ 
 }
 
 #main .container1 .title {
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 500;
     position: relative;
 }
 
-#main .container1 .title::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 2.1px;
-    width: 28px;
-    background: #AB8A5C;
+#main .container2 .title {
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    text-align: right;
 }
+
 
 #main .container1 form .user-details {
     display: flex;
@@ -344,7 +356,7 @@ button:hover {
 }
 
 #main form .user-details .input-box {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: calc(100% / 2 - 20px);
 }
 
@@ -368,18 +380,21 @@ button:hover {
 
 }
 
-#main .user-details .input-box input:focus,
+
 #main .user-details .input-box input:valid{
     border-color: #615a5a;
 }
 
 
 #main .button {
-    display: block;
-    width: 100px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 230px;
+
     text-align: center;
     background: black;
-    padding: 5px;
+    padding: 4px;
     color: #AB8A5C;
     border: 1px solid #AB8A5C;
     text-transform: uppercase;
@@ -387,7 +402,13 @@ button:hover {
 
 }
 
+#main .container1__register p{
+    text-align: center;
 
+
+    
+
+}
 
 
 
@@ -429,7 +450,7 @@ button:hover {
 
 
 #footer ul li {
-    text-align: center;
+    display: inline-block;
     list-style: none;
 
 
@@ -465,13 +486,21 @@ button:hover {
 
 #footer .footer__fnav1 a{
     font-size: 0.9rem;
+    padding: 10px 1px;
 
 }
+
 
 #footer .footer__info a{
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 
 }
+#footer .footer__info {
+
+    padding-left: 345px;
+}
+
+
 
 #footer .footer__fnav1 a:hover {
     color: white;
@@ -480,6 +509,70 @@ button:hover {
 #footer .footer__s a:hover {
     color: white;
 }
+
+
+/*FOOTER SUSCRIBE INPUT*/
+
+#footer input {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  
+#footer .button1 {
+    height: 20px;
+    width: 200px;
+    margin-bottom: 1.3%;
+    font-size: 11px;
+
+  }
+
+#footer .button2 {
+    height: 22px;
+    margin-top: 1%;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
+  
+    
+  #email {
+    width: 55%;
+    background: none;
+    font-family: inherit;
+    color: #AB8A5C;
+    letter-spacing: 1px;
+
+  }
+  
+  
+  #submit {
+    width: 20%;
+    height: 26px;
+    font-size: 0.7rem;
+    background: black;
+    font-family: inherit;
+    color: #AB8A5C;
+    border-color: #AB8A5C;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+  }
+    
+  
+  #submit:hover {
+    background: white;
+  }
+    
+  
+  input:focus {
+    outline: none;
+
+  }
 
 
 
