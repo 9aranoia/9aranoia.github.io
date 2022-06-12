@@ -169,12 +169,29 @@ button:hover {
 }
 
 
+@media screen and (min-width: 601px) {
+    #main .main__titlepoison1 {
+      font-size: 80px;
+    }
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    #main .main__titlepoison1 {
+      font-size: 30px;
+    }
+
+}   
+
+
+
 
 
 /*MAIN ANTIDOTE*/
 
 #main .main__antidote {
     display: flex;
+    position: flex;
     height: 550px;
     width: 1228px;
     border: 1px solid #AB8A5C;
@@ -183,19 +200,44 @@ button:hover {
    
 }
 
-#main .main__antidote img {
-    height: 100%;
-    width: 100%;
-
-}
 
 #main .main__titleantidote{
     display: flex;
-    width: 100%;
+    position: flex;
+    height: 30%;
+    width: 80%;
+    margin: auto;
     color: #009245;
-    font-size: 15vh;
+    background: black;
+    border: 1px solid #AB8A5C;
+    align-items: center;
  
 }
+
+#main .main__titleantidote a{
+    display: flex;
+    position: flex;
+    padding-left: 24%;
+    color: #009245;
+ 
+}
+
+
+@media screen and (min-width: 601px) {
+    #main .main__titleantidote {
+      font-size: 80px;
+    }
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    #main .main__titleantidote {
+      font-size: 30px;
+    }
+
+}   
+
+
 
 /*MAIN PARANOID*/
 
@@ -203,10 +245,10 @@ button:hover {
     display: flex;
     height: 550px;
     width: 1228px;
+    margin: auto;
     border: 1px solid #AB8A5C;
     background-color: #080E1A;
 
-   
 }
 
 
@@ -215,11 +257,28 @@ button:hover {
     display: flex;
     width: 100%;
     height: 100%;
+    margin: auto;
     color: #8E2F89;
-    font-size: 15vh;
+    text-align: center;
+    align-items: center;
+    align-content: center;
 
 }
 
+
+@media screen and (min-width: 601px) {
+    #main .main__titleparanoid {
+      font-size: 100px;
+    }
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    #main .main__titleparanoid {
+      font-size: 30px;
+    }
+
+}   
 
 
 
