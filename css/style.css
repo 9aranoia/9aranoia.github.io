@@ -144,24 +144,41 @@ button:hover {
 #main .main__poison {
     height: 550px;
     width: 1228px;
+    grid-template-columns: repeat(1, 1fr);
+    border: 1px solid #AB8A5C;
+    display: flex;
+    padding-top: 1%;
+    justify-content: center;
+    background-color: #0C0405;
+
+
 
    
 }
 
-#main .main__poison img {
-    height: 100%;
+
+#main .main__titlepoison1 {
+    display: flex;
     width: 100%;
+    color: #E30613;
+    font-size: 15vh;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 
-   
 }
+
 
 
 
 /*MAIN ANTIDOTE*/
 
 #main .main__antidote {
+    display: flex;
     height: 550px;
     width: 1228px;
+    border: 1px solid #AB8A5C;
+    background-color: #070C09;
 
    
 }
@@ -172,18 +189,34 @@ button:hover {
 
 }
 
+#main .main__titleantidote{
+    display: flex;
+    width: 100%;
+    color: #009245;
+    font-size: 15vh;
+ 
+}
+
 /*MAIN PARANOID*/
 
 #main .main__paranoid {
+    display: flex;
     height: 550px;
     width: 1228px;
+    border: 1px solid #AB8A5C;
+    background-color: #080E1A;
 
    
 }
 
-#main .main__paranoid img {
-    height: 100%;
+
+
+#main .main__titleparanoid{
+    display: flex;
     width: 100%;
+    height: 100%;
+    color: #8E2F89;
+    font-size: 15vh;
 
 }
 
@@ -342,7 +375,7 @@ button:hover {
 
 
 
-/* MAIN ACCOUNT */ 
+/* MAIN ACCOUNT/REGISTER */ 
 
 
 #main .container1 {
