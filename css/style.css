@@ -41,6 +41,7 @@ hr {
 }
 
 
+
 /*HEADER*/
 
 #header {
@@ -89,7 +90,6 @@ hr {
 
 
 
-
 /* MAIN */ 
 
 #main {
@@ -107,8 +107,11 @@ hr {
 
 #main .grid-main {
     display: grid;
+    height: 550px;
+    width: 1228px;
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
+    padding-top: 1px;
 }
 
 #main .grid-main img {
@@ -577,6 +580,7 @@ button:hover {
 
 #footer input {
     display: flex;
+    position: flex;
     align-items: center;
     
   }
@@ -594,6 +598,7 @@ button:hover {
     height: 22px;
     margin-top: 1%;
     width: 100px;
+    height: 100%;
     text-align: center;
     justify-content: center;
     align-items: center;
