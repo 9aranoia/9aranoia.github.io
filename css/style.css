@@ -217,7 +217,7 @@ button:hover {
 #main .main__titleantidote a{
     display: flex;
     position: flex;
-    padding-left: 24%;
+    margin: auto;
     color: #009245;
  
 }
@@ -279,6 +279,7 @@ button:hover {
     }
 
 }   
+
 
 
 
