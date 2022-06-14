@@ -11,10 +11,20 @@ body {
     /* margin-top: 3%;
     margin-bottom: 1%; */
     font-family: 'Baskervville', serif;
-    background-color: black;
+    background: black;
 
+
+}
+
+.body {
+    background: #000;
+
+    &.dark {
+        background: white;
+    }
     
 }
+
 
 a {
     text-decoration: none;
@@ -39,6 +49,8 @@ hr {
     position: relative;
     height: 100vh;
     background-color: #000;
+
+
 }
 
 
@@ -50,8 +62,14 @@ hr {
     justify-content: space-between;
     align-items: center;
     height: 70px;
+
+    body.dark & {
+        background: white;
+    }
+    
     
 }
+
 
 
 
@@ -99,6 +117,11 @@ hr {
     align-items: center;
     padding-top: 1%;
     padding-bottom: 1.2%;
+
+    body.dark & {
+        background: white;
+    }
+    
 
     
 }
@@ -604,6 +627,11 @@ button:hover {
     padding-bottom: 1%;
     align-items: center;
 
+    body.dark & {
+        background: white;
+    }
+    
+
 
 }
 
@@ -614,6 +642,7 @@ button:hover {
 
 
 }
+
 
 #footer .footer__div {
     width: 100%;
@@ -649,6 +678,12 @@ button:hover {
 
 }
 
+@media only screen and (max-width: 880px) {
+    .footer__fnav1 {
+      display: none;
+    }
+}
+
 
 #footer .footer__info a{
     font-size: 0.7rem;
@@ -678,7 +713,12 @@ button:hover {
     align-items: center;
     
   }
-  
+
+  @media only screen and (max-width: 880px) {
+    .footer__input {
+      display: none;
+    }
+}
   
 #footer .button1 {
     height: 20px;
@@ -687,6 +727,8 @@ button:hover {
     font-size: 11px;
 
   }
+
+  
 
 #footer .button2 {
     height: 22px;
@@ -734,6 +776,8 @@ button:hover {
     outline: none;
 
   }
+
+
 
 
 
