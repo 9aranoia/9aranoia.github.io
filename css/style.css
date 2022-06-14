@@ -267,6 +267,11 @@ button:hover {
       align-content: center;
 }
 
+#main .main__titleparanoid img {
+  height: 70%;
+  width: 70%;
+}
+
 @media screen and (min-width: 601px) {
   #main .main__titleparanoid {
     font-size: 100px;
@@ -350,15 +355,11 @@ button:hover {
   width: 100%;
   max-width: 600px;
   background: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  padding: 0px 0px;
+  position: flex;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  text-align: center;
+  margin: auto;
+  padding-top: 1%;
 }
 
 #main .contact-form h1 {
