@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/f020fae7bf.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>PARANOID</title>
 </head>
-<body>
+<body class="body">
 <div id="page-container">
 
 
@@ -20,18 +21,18 @@
 
         <nav class="header__nav1">
             <ul>
-                <li><a href="../index.html ">PORTFOLIO</a></li>
-                <li><a href="./about.html">ABOUT</a></li>
-                <li><a href="./contact.html">CONTACT</a></li>
-                <li><a href="./account.html">REGISTER</a></li>
+                <li><a href="../index.html">PORTFOLIO</a></li>
+                <li><a href="../pages/about.html">ABOUT</a></li>
+                <li><a href="../pages/contact.html">CONTACT</a></li>
+                <li><a href="../pages/account.html">REGISTER</a></li>
             </ul>
 
         </nav>
 
-        <nav class="header__nav2">
+        <nav class="header__nav2"> 
             <ul>
-                <li><a href="./login.html"><i class="fa-solid fa-user" style="color: #AB8A5C;"></a></i>
-                <li><a href=""><button>B/N</button></a></li>
+                <li><a href="../pages/login.html"><i class="fa-solid fa-user" style="color: #AB8A5C;"></a></i>
+                <li><a href=""><button class="switch" id="switch">B/N</button></a></li>
             </ul>
         </nav>
     
@@ -41,45 +42,42 @@
 
 
     <main id="main">
-        <div class="main__paranoid">
-            <div class="main__titleparanoid">
-                <a href="../index.html"><img src="../img-grid/logo.png" alt=""></a>
-                <a href="">PARANOID</a>
-
-            </div>
-        </div>
-
-
+        <div class="container">
+                 <div class="row " style="height: 72vh">
+                    <span class="fs-1 d-flex justify-content-center align-items-center col-sm-12 text-primary lead " style="background-color: #080e1a;" ><a href="../index.html">PARANOID</a></span>
+                </div>
+        </div> 
     </main>
 
 
 
 
     <footer id="footer">
-        <div class="footer__div">
-    
-            <hr class="hr2">  
-    
-            <div class="footer__input">
-                <input type="text" class="button1" id="email" name="email" placeholder="NAME@EXAMPLE.COM">
-                <input type="submit" class="button2" id="submit" value="SUSCRIBE">
-            </div>
-    
-            <nav class="footer__fnav1">
-                <ul>
-                    <li><a href="https://www.behance.net/9aranoia">BEHANCE ·</a></li>
-                    <li><a href="https://www.linkedin.com/in/serrgioaast">LINKEDIN</a></li>
-                    <li><a href="https://github.com/9aranoia">· GITHUB</a></li>
-                </ul>
-            </nav>
-    
-            <div class="footer__info">
-                <a href="">SYTE BY 9ARANOIA</a>
-            </div>
+    <div class="footer__div">
+
+        <hr class="hr2">  
+
+        <div class="footer__input">
+            <input type="text" class="button1" id="email" name="email" placeholder="NAME@EXAMPLE.COM">
+            <input type="submit" class="button2" id="submit" value="SUSCRIBE">
         </div>
-        </footer>
+
+        <nav class="footer__fnav1">
+            <ul>
+                <li><a href="https://www.behance.net/9aranoia">BEHANCE ·</a></li>
+                <li><a href="https://www.linkedin.com/in/sergioaast">LINKEDIN</a></li>
+                <li><a href="https://github.com/9aranoia">· GITHUB</a></li>
+            </ul>
+        </nav>
+
+        <div class="footer__info">
+            <a href="">SYTE BY 9ARANOIA</a>
+        </div>
+    </div>
+    </footer>
 
 </div>
-
+<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
