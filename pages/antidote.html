@@ -4,80 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/f020fae7bf.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
-    <title>ANTIDOTE</title>
+    <script src="https://kit.fontawesome.com/f020fae7bf.js" crossorigin="anonymous"></script>
+    <title>Antidote</title>
 </head>
-<body class="body">
-<div id="page-container">
-
-
-    <header id="header">
-
-        <div class="header__title">
-            <a href="../index.html">9ARANOIA</a>
+<body>
+<!-- CONTENEDOR PRINCIPAL-->
+<div class="container">
+<!-- HEADER-->
+<header id="header">
+<nav class="navbar navbar-expand-lg bg-transparent"style="height: 70px">
+    <div class="container-fluid">  
+      <a class="fs-1 pt-1 col-1" href="../index.html">9ARANOIA</a>
+        <div class="" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link " style="color: #AB8A5C;" href="../index.html">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #AB8A5C;" href="/pages/about.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #AB8A5C;" href="/pages/contact.html">CONTACT</a>
+                </li>
+            </ul>
+        
         </div>
-
-        <nav class="header__nav1">
-            <ul>
-                <li><a href="../index.html">PORTFOLIO</a></li>
-                <li><a href="../pages/about.html">ABOUT</a></li>
-                <li><a href="../pages/contact.html">CONTACT</a></li>
-                <li><a href="../pages/account.html">REGISTER</a></li>
-            </ul>
-
-        </nav>
-
-        <nav class="header__nav2"> 
-            <ul>
-                <li><a href="../pages/login.html"><i class="fa-solid fa-user" style="color: #AB8A5C;"></a></i>
-                <li><a href=""><button class="switch" id="switch">B/N</button></a></li>
-            </ul>
-        </nav>
-    
-    </header>
-
+        
+        <span class="nav-item nav justify-content-center gap-4"><a href="/pages/account.html"><i class="fa-solid fa-user" style="color: #AB8A5C;"></a></i>
+        <span class="nav-item nav justify-content-center"><a href="/pages/register.html">REGISTER</a></span>
+    </div>
+  </nav>
+</header>
+<!-- HR-->
+<div class="container-fluid" style="height: 2.5vh" >
     <hr>
 
-
-    <main id="main">
-        <div class="container">
-                 <div class="row " style="height: 72vh">
-                    <span class="fs-1 d-flex justify-content-center align-items-center text-success col-sm-12 lead " style="background-color: #070c09;" ><a href="../index.html">ANTIDOTE</a></span>
+</div>
+<!-- MAIN-->
+        <!-- Page Content-->
+        <div class="container px-4 px-lg-5">
+            <!-- Heading Row-->
+            <div class="row gx-4 gx-lg-5 align-items-center my-5">
+                <div class="col-lg-6"><img class="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/900x400/dee2e6/6c757d.jpg" alt="..." /></div>
+                <div class="col-lg-5">
+                    <h1 class="font-weight-light" style="color: #139c4a;">ANTIDOTE</h1>
+                    <p style="color: #AB8A5C;">This is a library about...</p>
                 </div>
-        </div> 
-    </main>
+            </div>
 
+            <!-- Content Row-->
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">THC</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">CBD</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
 
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">MEDICINAL</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+</main>
+<!-- HR-->
+<div class="container-fluid "style="height: 1vh">
+    <hr>
 
-    <footer id="footer">
-    <div class="footer__div">
+</div>
 
-        <hr class="hr2">  
+<!-- FOOTER-->
+<nav class="navbar navbar-expand-lg bg-transparent" style="height: 65px" >
+    <div class="container-sm">
 
-        <div class="footer__input">
-            <input type="text" class="button1" id="email" name="email" placeholder="NAME@EXAMPLE.COM">
+        <div class="col-sm-4 p-0">
+            <input type="text" class="button1" id="email" name="email" placeholder="NAME@EXAMPLE.COM"> <br>
             <input type="submit" class="button2" id="submit" value="SUSCRIBE">
         </div>
 
-        <nav class="footer__fnav1">
-            <ul>
-                <li><a href="https://www.behance.net/9aranoia">BEHANCE ·</a></li>
-                <li><a href="https://www.linkedin.com/in/sergioaast">LINKEDIN</a></li>
-                <li><a href="https://github.com/9aranoia">· GITHUB</a></li>
+        <div class="col-sm-5" id="navbarNav">
+            <ul class="navbar-nav" >
+                <li class="nav-item ">
+                    <a class="nav-link" target="_blank" style="color: #AB8A5C; font-size: 85%;" href="https://www.behance.net/9aranoia">BEHANCE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" style="color: #AB8A5C; font-size: 85%;" href="https://www.linkedin.com/in/sergioaast/">LINKEDIN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" style="color: #AB8A5C; font-size: 85%;" href="https://github.com/9aranoia">GITHUB</a>
+                </li>
             </ul>
-        </nav>
-
+        </div>
+        
         <div class="footer__info">
-            <a href="">SYTE BY 9ARANOIA</a>
+            <a style="font-size: 70%;" href="">SYTE BY 9ARANOIA</a>
         </div>
     </div>
-    </footer>
+
+
 
 </div>
-<script src="js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
