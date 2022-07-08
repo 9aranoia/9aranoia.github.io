@@ -1,3 +1,7 @@
+$primary-color:#AB8A5C;
+$background-black: black;
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +9,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: $background-black;
     font-family: 'Baskervville', serif;
     margin-left: 10%;
     margin-right: 10%;
@@ -13,14 +17,14 @@ body {
 }
 
 a {
-    color: #AB8A5C;
+    color: $primary-color;
     text-decoration: none;
 }
 
 hr {
     height: 1px;
     border: 0;
-    background-color: #AB8A5C;
+    background-color: $primary-color;
   }
 
 button {
