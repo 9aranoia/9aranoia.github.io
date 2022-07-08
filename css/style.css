@@ -4,9 +4,23 @@
   box-sizing: border-box;
 }
 
+/* MAP 
+
+$fontbase: (
+
+  fontprincipal: 'Baskervville', serif,
+
+);*/
+/* MAP GET */
+/* EXTEND */
+body {
+  font-family: "Baskervville", serif;
+}
+
+/* MIXIN */
+/* BODY CON MAP-GET EXTEND Y MIXIN APLICADOS*/
 body {
   background-color: black;
-  font-family: "Baskervville", serif;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -14,6 +28,10 @@ body {
 a {
   color: #AB8A5C;
   text-decoration: none;
+}
+
+a:hover {
+  color: white;
 }
 
 hr {
@@ -311,6 +329,11 @@ input:focus {
 /* Media Qry */
 @media only screen and (max-width: 880px) {
   input {
+    display: none;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .syte {
     display: none;
   }
 }
