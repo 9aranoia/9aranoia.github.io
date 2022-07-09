@@ -4,13 +4,19 @@
   box-sizing: border-box;
 }
 
-/* MAP 
+/* MAP COLOR RRSS*/
+.btn--twitter {
+  background-color: #55acee;
+}
 
-$fontbase: (
+.btn--facebook {
+  background-color: #3a5795;
+}
 
-  fontprincipal: 'Baskervville', serif,
+.btn--send-mail {
+  background-color: #C25E30;
+}
 
-);*/
 /* MAP GET */
 /* EXTEND */
 body {
