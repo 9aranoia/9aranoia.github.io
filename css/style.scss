@@ -414,7 +414,13 @@ button:hover {
                                                       align-content: center;
                                                   text-align: center;
                                                 }
-  
+                                                  
+                                                .main__img {
+                                                  display: flex;
+                                                  justify-content: center;
+                                                  align-items: center;
+                                                  padding-top: 4%;
+                                                }
 }
   /*MAIN CONTACT */
 

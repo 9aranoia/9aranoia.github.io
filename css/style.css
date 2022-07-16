@@ -304,6 +304,12 @@ input:focus {
   align-content: center;
   text-align: center;
 }
+#main .main__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4%;
+}
 
 /*MAIN CONTACT */
 /* Media Qry */
