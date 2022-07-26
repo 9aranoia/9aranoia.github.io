@@ -314,12 +314,17 @@ input:focus {
 /*MAIN CONTACT */
 /* Media Qry */
 @media only screen and (max-width: 880px) {
+  #header {
+    display: row;
+  }
+}
+@media only screen and (max-width: 880px) {
   input {
     display: none;
   }
 }
 @media only screen and (max-width: 880px) {
-  .syte {
+  #syte {
     display: none;
   }
 }
